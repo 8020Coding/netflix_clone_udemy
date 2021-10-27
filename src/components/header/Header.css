@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header-wrapper {
+  background: url(/src/components/images/bg.jpg) no-repeat center/cover;
+  height: 100vh;
+}
+
+.bg-gr {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(50%, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    radial-gradient(50% 100% rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+  background-image: -webkit-linear-gradient(
+      bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    -webkit-linear-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7)
+          100%);
+  background-image: -moz-
+      oldlinear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),
+    -moz- oldradial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7)
+          100%);
+  background-image: -o-linear-gradient(
+      bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    -o-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7));
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+/************************** HERO INPUT AND BUTTON ***********************************/
+.get-started-input {
+  border-radius: 0.2rem 0 0 0.2rem;
+}
+
+.get-started-btn {
+  border-radius: 0 0.2rem 0.2rem 0;
+}
