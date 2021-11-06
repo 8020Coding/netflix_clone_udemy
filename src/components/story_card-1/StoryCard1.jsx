@@ -5,7 +5,7 @@ const StoryCard1 = () => {
   return (
     <section className='d-flex container-fluid our-story-wrapper justify-content-center'>
       <div className='text-wrapper justify-content-center d-flex flex-column'>
-        <h1 className='text-light fw-bolder dispaly-4 pb-2'>
+        <h1 className='text-light fw-bolder display-5 pb-2'>
           Enjoy on your TV.
         </h1>
         <h5 className='text-light' style={{ fontSize: '1.6rem' }}>

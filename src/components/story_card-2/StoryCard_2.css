@@ -1,0 +1,23 @@
+.our-story-2-wrapper {
+  background: #000;
+  height: 30rem;
+  border-bottom: 0.5rem solid #222;
+}
+
+.card {
+  height: 6rem;
+  padding: 0.4rem;
+  background: #000;
+  border-color: 1px solid #222;
+  z-index: 2;
+  width: 25rem;
+  margin-top: -8rem;
+}
+
+.card-body-gif {
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
+    no-repeat center/cover;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 8rem;
+}
