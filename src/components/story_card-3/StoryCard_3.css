@@ -1,0 +1,18 @@
+.our-story-wrapper_3 {
+  background: #000;
+  height: 30rem;
+  border-bottom: 0.5rem solid #222;
+}
+
+.our-story-card-video_3 {
+  position: relative;
+  margin-left: 6.5rem;
+  margin-top: 3rem;
+  width: 20rem;
+}
+
+.our-story-card-img_3 {
+  position: absolute;
+  height: 25rem;
+  z-index: 1;
+}

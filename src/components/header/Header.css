@@ -5,7 +5,14 @@
   height: 100vh;
 }
 
+@media (max-width: 1920px) {
+  .header-wrapper {
+    height: 80vh;
+  }
+}
+
 .bg-gr {
+  height: 80vh;
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
   background-image: -webkit-gradient(
