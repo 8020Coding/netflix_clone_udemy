@@ -5,15 +5,16 @@ import StoryCard1 from './components/story_card-1/StoryCard1'
 import StoryCard2 from './components/story_card-2/StoryCard_2'
 import StoryCard3 from './components/story_card-3/StoryCard_3'
 import StoryCard4 from './components/story_card-4/StoryCard_4'
-
+import QAcomponent from './components/questions-answers/QAcomponent'
 function App() {
   return (
     <>
       <Header />
-      <StoryCard1 />
+      <StoryCard1 />1
       <StoryCard2 />
       <StoryCard3 />
       <StoryCard4 />
+      <QAcomponent />
     </>
   )
 }

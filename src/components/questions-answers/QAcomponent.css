@@ -1,0 +1,51 @@
+.accordion {
+  width: 50rem;
+}
+
+.accordion-wrapper {
+  background: #000;
+  height: 30rem;
+  border-bottom: 0.5rem solid #222;
+}
+
+.accordion-button {
+  background: #333;
+  border-radius: 0 !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #333;
+}
+
+.accordion-item {
+  background: #333;
+  border-radius: 0 !important;
+  color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  background-image: url(/src/components/questions-answers/plus-svgrepo-com.svg) !important;
+  transition: 0.1s ease;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(/src/components/questions-answers/x-symbol-svgrepo-com.svg) !important;
+  transition: 0.1s ease;
+}
+
+.accordion-body {
+  border-top: 1px solid #000;
+}
+
+/************************** INPUT AND BUTTON ***********************************/
+.get-started-input {
+  border-radius: 0.2rem 0 0 0.2rem;
+}
+
+.get-started-btn {
+  border-radius: 0 0.2rem 0.2rem 0;
+}
